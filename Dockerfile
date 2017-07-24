@@ -3,7 +3,7 @@ USER root
 
 RUN yum update -y \
   && yum install -y \
-    wget bind-utils nmap curl \
+    wget bind-utils nmap curl mtr traceroute \
   && yum clean all
 
 USER kibana
